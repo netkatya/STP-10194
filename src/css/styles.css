@@ -12,7 +12,17 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero.css');
+@import url('./aboul.css');
+@import url('./gameticker.css');
+@import url('./advantages.css');
+@import url('./description.css');
+@import url('./features.css');
+@import url('./howtoplay.css');
+@import url('./gallery.css');
+@import url('./contacts.css');
+@import url('./terms.css');
+@import url('./privacypolicy.css');
+@import url('./cookies.css');
+
 @import url('./footer.css');
