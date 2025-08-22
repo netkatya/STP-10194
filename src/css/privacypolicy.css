@@ -1,0 +1,71 @@
+.policy {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+
+.back-button {
+    width: 140px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.arrow-left  {
+    stroke: #fff;
+    fill: #fff;
+}
+
+.policy-header {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+
+.policy-date {
+    font-size: 16px;
+    line-height: 187%;
+    margin-bottom: 16px;
+}
+
+.policy-main-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+}
+
+.policy-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    margin-left: -22px;
+}
+
+.policy-ol-list-item {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    
+    font-size: 16px;
+    line-height: 187%;
+}
+
+.policy-ol-list {
+    padding-left: 22px;
+}
+
+.policy-ul-list-item {
+    list-style: disc;
+    margin-left: 10px;
+}
+
+.policy-ul-list-item-link {
+    text-decoration: underline;
+}
