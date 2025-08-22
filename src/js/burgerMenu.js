@@ -18,7 +18,7 @@ closeBtn.addEventListener('click', () => {
 navList.addEventListener('click', event => {
   if (event.target.classList.contains('js-mobile-menu-nav-item-link')) {
     document.body.classList.remove('js-no-scroll');
-    mobileMenu.classList.remove('is-open');
+    mobileMenu.classList.remove('js-is-open');
     burgerBtn.classList.remove('js-rotate');
   }
   return;

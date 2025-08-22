@@ -32,11 +32,11 @@
 .js-burger-button {
     background-color: transparent;
     border: none;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 250ms ease-in-out;
     height: 20px;
 }
 
-.js-burger-btn.js-rotate {
+.js-burger-button.js-rotate {
     transform: rotate(90deg);
 }
 
@@ -88,7 +88,11 @@
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px; 
+        transition: color 250ms ease-in-out;
     }
 
+    .header-nav-list-item-link:hover {
+        color: #22CFE9;
+    }
 }
 

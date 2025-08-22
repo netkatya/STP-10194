@@ -18,6 +18,12 @@
     font-size: 16px;
     line-height: 250%;
     text-align: center;
+    transition: color 250ms ease-in-out;
+}
+
+.footer-list-item:hover {
+    color: #22CFE9;
+    
 }
 
 .footer-text {
@@ -27,8 +33,21 @@
     text-align: center;
 }
 
+.footer-text-link {
+    color: #fff;
+    transition: color 250ms ease-in-out;
+}
+
+.footer-text-link:hover {
+     color: #22CFE9;
+ }
+
 .footer-line {
     display: none;
+}
+
+.footer-line {
+    color: #fff;
 }
 
 @media only screen and (min-width: 1200px) {
