@@ -1,9 +1,8 @@
 const burgerBtn = document.querySelector('.js-burger-button');
-
 const mobileMenu = document.querySelector('.js-mobile-menu');
 const closeBtn = document.querySelector('.js-close-button');
 const navList = document.querySelector('.js-mobile-menu-nav-list');
-console.log(mobileMenu)
+
 
 burgerBtn.addEventListener('click', () => {
   document.body.classList.add('js-no-scroll');
