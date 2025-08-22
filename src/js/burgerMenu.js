@@ -1,11 +1,25 @@
-const openBtnEl = document.querySelector('[data-action="open"]');
-const closeBtnEl = document.querySelector('[data-action="close"]');
-const burgerMenuEl = document.querySelector('[data-visible]');
+const burgerBtn = document.querySelector('.js-burger-button');
 
-openBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'open';
+const mobileMenu = document.querySelector('.js-mobile-menu');
+const closeBtn = document.querySelector('.js-close-button');
+const navList = document.querySelector('.js-mobile-menu-nav-list');
+console.log(mobileMenu)
+
+burgerBtn.addEventListener('click', () => {
+  document.body.classList.add('js-no-scroll');
+  mobileMenu.classList.add('js-is-open');
+  burgerBtn.classList.add('js-rotate');
 });
-
-closeBtnEl.addEventListener('click', e => {
-  burgerMenuEl.dataset.visible = 'close';
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('js-is-open');
+  document.body.classList.remove('js-no-scroll');
+  burgerBtn.classList.remove('js-rotate');
+});
+navList.addEventListener('click', event => {
+  if (event.target.classList.contains('js-mobile-menu-nav-item-link')) {
+    document.body.classList.remove('js-no-scroll');
+    mobileMenu.classList.remove('is-open');
+    burgerBtn.classList.remove('js-rotate');
+  }
+  return;
 });

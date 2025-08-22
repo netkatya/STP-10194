@@ -2,9 +2,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
-    height: 40px;
-    position: sticky;
-    z-index: 999;
+
+    /* position: sticky;
+    z-index: 999; */
 }
 
 .header-container {
@@ -17,7 +17,7 @@
 
 .header-nav {
     display: flex;
-    
+    align-items: center;
 }
 
 .logo {
@@ -29,9 +29,15 @@
     display: none;
 }
 
-.burger-button {
+.js-burger-button {
     background-color: transparent;
     border: none;
+    transition: transform 0.3s ease-in-out;
+    height: 20px;
+}
+
+.js-burger-btn.js-rotate {
+    transform: rotate(90deg);
 }
 
 .burger-menue-pic {
@@ -55,7 +61,7 @@
         margin-right: 322px;
     }
 
-    .burger-button {
+    .js-burger-button {
         display: none;
     }
 

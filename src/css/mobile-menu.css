@@ -1,0 +1,61 @@
+.mobile-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}    
+
+.js-close-button {
+    background-color: transparent;
+    border: none;
+    height: 20px;
+}
+
+.js-close-button-icon {
+    stroke: #fff;
+    fill: #fff;
+}
+body.js-no-scroll {
+    overflow: hidden;
+}
+.js-mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translate(100%);
+    background-color: inherit;
+    transition: transform 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
+    background-color: #1A093E;
+}
+
+.js-mobile-menu.js-is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translate(0);
+    z-index: 9999;
+}
+
+
+
+.mobile-container {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.js-mobile-menu-nav-list {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.js-mobile-menu-nav-item-link {
+    font-size: 16px;
+    line-height: 100%;
+}
