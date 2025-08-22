@@ -58,8 +58,20 @@
     line-height: 187%;
 }
 
+.first {
+    list-style: disc;
+        margin-left: 6px;
+            margin-bottom: 8px;
+            font-size: 16px;
+            line-height: 100%;
+}
+
 .policy-ol-list {
     padding-left: 22px;
+}
+
+.policy-span {
+    line-height: 100%;
 }
 
 .policy-ul-list-item {
@@ -124,9 +136,7 @@
         padding-left: 36px;
     }
 
-    .first {
-        list-style: disc ;
-    }
+    
 
     .policy-ol-list-item {
         font-size: 28px;
