@@ -1,6 +1,6 @@
 .hero {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 12px;
 }
 
 .picture-container {
@@ -47,7 +47,6 @@
     border-radius: 4px;
     padding: 9px 57px;
     margin: 0 auto;
-    margin-bottom: 24px;
     background-color: #fff;
     cursor: pointer;
     color: #1e1e1e;
