@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   font-family: 'Orbitron', sans-serif, 'Montserrat', sans-serif;
   font-size: 16px;
@@ -12,6 +16,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  
 }
 
 main {
@@ -21,3 +26,5 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+
