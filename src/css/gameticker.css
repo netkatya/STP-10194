@@ -1,3 +1,8 @@
+.ticker {
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
 .ticker-title {
     max-width: 288px;
     margin: 0 auto;
@@ -10,4 +15,29 @@
     max-width: 288px;
     margin: 0 auto;
     font-size: 16px;
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .ticker {
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+
+    .ticker-container {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+    .ticker-title {
+        font-size: 36px;
+        line-height: 133%;
+        max-width: 100%;
+    }
+
+        .ticker-text {
+            max-width: 100%;
+            font-size: 24px;
+            line-height: 167%;
+        }
 }
