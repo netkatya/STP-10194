@@ -1,0 +1,42 @@
+.howtoplay {
+    padding-bottom: 24px;
+}
+
+.howtoplay-container {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.how-list-item {
+    margin-bottom: 16px;
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.how-text {
+    font-size: 16px;
+    width: 128px;
+}
+
+.how-text-span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    width: 130px;
+}
+
+.how-picture {
+    width: 120px;
+}
+
+.how-line {
+    width: 48px;
+    height: 2px;
+    background-color: white;
+}
