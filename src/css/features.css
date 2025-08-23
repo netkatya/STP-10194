@@ -36,7 +36,7 @@
     min-width: 120px;
 }
 
-.text-content {
+.features-text-content {
     max-width: 148px;
 }
 
@@ -91,7 +91,7 @@
             height: 280px;
         }
     
-        .text-content {
+        .features-text-content {
             max-width: 259px;
             padding: 0;
         }
