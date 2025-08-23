@@ -1,25 +1,42 @@
 <section class="hero">
   <div class="container hero-container">
-    <div class="top-content">
-      <picture></picture>
+    <div class="hero-content">
+      <div class="picture-container">
+        <picture>
+          <source
+            srcset="
+              /img/hero/hero-desk@1x.webp 1x,
+              /img/hero/hero-desk@2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              /img/hero/hero-mob@1x.webp 1x,
+              /img/hero/hero-mob@2x.webp 2x
+            "
+            media="(max-width: 1200px)"
+          />
+          <img
+            src="/img/hero/hero-desk@1x.webp"
+            class="hero-picture"
+            alt="Game heroes"
+          />
+        </picture>
+      </div>
+
       <div class="text-content">
         <h1 class="hero-title">Alien Survivor: Survival Arena</h1>
         <p class="hero-text">Outlast the Unknown. Survive the Unthinkable.</p>
-        <button class="hero-button">
-          <img src="" alt="google play icon" /><a href=""
-            >Enter Arena – Begin Survival</a
-          >
-        </button>
+        <a class="hero-button">
+          <img
+            src="/img/hero/google-play-logo.png"
+            alt="google play icon"
+            class="hero-button-picture"
+          />
+          <p href="hero-button-text">Enter Arena – Begin Survival</p>
+        </a>
       </div>
     </div>
-    <h2 class="about-title">
-      STEP INTO THE ARENA WHERE SURVIVAL IS NOT A CHOICE — IT’S THE MISSION.
-    </h2>
-    <p class="about-text">
-      Dive into an intense survival challenge where every second counts. Fight
-      alien threats, craft weapons, and adapt quickly to stay alive. Built for
-      thrill-seekers and strategy lovers, this game pushes your reflexes,
-      intuition, and focus to the limit.
-    </p>
   </div>
 </section>
