@@ -77,7 +77,7 @@
     
     .hero-content {
         display: flex;
-        gap: 8px;
+        gap: 48px;
     }
 
     .picture-container {
