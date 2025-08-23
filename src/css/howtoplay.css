@@ -1,20 +1,23 @@
 .howtoplay {
     padding-top: 8px;
     padding-bottom: 24px;
+    background-image: url('/img/zigzag-mob.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
 }
 
 .howtoplay-container {
     padding-left: 6px;
     padding-right: 6px;
-    background-image: url('/img/zigzag-mob.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
+    
 }
 
 .how-title {
     margin-bottom: 16px;
     font-size: 16px;
     text-align: center;
+  
+   
 }
 
 
@@ -56,10 +59,11 @@
     .howtoplay {
         padding-top: 16px;
         padding-bottom: 48px;
+        background-image: url('/img/zigzag-desc.png');
+        background-repeat: no-repeat;
     }
 
     .how-title {
-        
         margin-bottom: 69px;
         font-size: 36px;
         line-height: 133%;
@@ -68,8 +72,7 @@
     .howtoplay-container {
         padding-left: 80px;
         padding-right: 80px;
-        background-image: url('/img/zigzag-desc.png');
-        background-repeat: no-repeat;
+        
     }
 
     .how-list-item {
