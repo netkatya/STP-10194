@@ -1,3 +1,9 @@
+.advantages-section .container {
+  background-image: url('/img/zigzag-mob.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
 .advantages-subcontainer {
   display: flex;
   flex-direction: column;
@@ -7,12 +13,13 @@
   padding-bottom: 24px;
 }
 
-.section-title {
+.advantages-title {
   text-align: center;
   font-size: 16px;
   line-height: 1;
   padding-top: 8px;
   padding-bottom: 8px;
+  margin-bottom: 48px;
 }
 
 .advantages-list {
@@ -38,6 +45,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .advantages-section .container {
+    background-image: url('/img/zigzag-desc.png');
+  }
+
   .advantages-subcontainer {
     flex-direction: row;
     align-items: start;
@@ -45,7 +56,7 @@
     padding-bottom: 64px;
   }
 
-  .section-title {
+  .advantages-title {
     font-size: 36px;
     line-height: 1.33;
     padding-top: 16px;

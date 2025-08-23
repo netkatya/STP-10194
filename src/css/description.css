@@ -5,12 +5,18 @@
   flex-direction: column;
   gap: 24px;
   padding-bottom: 24px;
+  max-width: 320px;
+  background-image: url('/img/zigzag-mob.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
-.section-title {
-}
-
-.desc-text {
+.desc-title {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .upper-text {
@@ -26,9 +32,6 @@
   width: 100%;
 }
 
-.middle-text {
-}
-
 .desc-image {
   min-width: 320px;
 }
@@ -39,6 +42,15 @@
     padding-bottom: 48px;
     padding-left: 92px;
     padding-right: 92px;
+    max-width: 1200px;
+    background-image: url('/img/zigzag-desc.png');
+  }
+
+  .desc-title {
+    font-size: 36px;
+    line-height: 1.33;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .desc-text {
