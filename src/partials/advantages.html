@@ -1,4 +1,5 @@
 <section class="advantages-section">
+  <div class="zigzag-bg"></div>
   <div class="container advantages-container">
     <h2 class="advantages-title">Game Advantages</h2>
     <div class="advantages-subcontainer">
@@ -14,7 +15,7 @@
         <li class="advantages-item">Offline Training Mode</li>
         <li class="advantages-item">Zero Ads. All Action</li>
       </ul>
-      <picture class="advantages-container-image">
+      <picture>
         <source
           srcset="
             img/advantages/advantages-desktop@1x.jpg,
@@ -22,12 +23,17 @@
           "
           media="(min-width: 1200px)"
         />
+        <source
+          srcset="
+            img/advantages/advantages-mobile@1x.jpg,
+            img/advantages/advantages-mobile@2x.jpg
+          "
+          media="(max-width: 1200px)"
+        />
         <img
           src="img/advantages/advantages-mobile@1x.jpg"
           alt="Advantages"
           class="advantages-image"
-          width="280"
-          height="400"
           loading="lazy"
         />
       </picture>
