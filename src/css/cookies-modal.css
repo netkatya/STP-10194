@@ -1,0 +1,104 @@
+.cookies-modal {
+    background-color: black;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    transition: bottom 0.5s ease;
+    z-index: 9999;
+}
+
+
+
+.cookies-modal.show {
+    bottom: 0;
+}
+
+.cookies-modal-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #22cfe9;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.cookies-modal-text {
+    font-size: 16px;
+    line-height: 100%;
+    max-width: 288px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.cookies-buttons-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.cookies-modal-button {
+    border: 3px solid #22cfe9;
+    border-radius: 4px;
+    padding: 20px 40px;
+    width: 288px;
+    height: 58px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: black;
+    background-color: #fff;
+    transition: background-color 250ms ease-in-out;
+    transition: border 250ms ease-in-out;
+}
+
+.cookies-modal-button:hover,
+.cookies-modal-button:focus {
+    border: 3px solid #fff;
+    background-color: #22cfe9;
+}
+
+@media only screen and (min-width: 1200px) {
+    .cookies-modal {
+        padding-top: 60px;
+        padding-bottom: 80px;
+        position: fixed;
+    }
+
+    .cookies-modal-container {
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+
+    .cookies-modal-header {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 133%;
+        margin-bottom: 22px;
+    }
+    
+    .cookies-modal-text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 125%;
+        text-align: center;
+        margin-bottom: 60px;
+        max-width: 100%;
+    }
+    
+        .cookies-buttons-wraper {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+    
+        .cookies-modal-button {
+            width: 256px;
+            height: 68px;    
+        }
+    
+
+}
