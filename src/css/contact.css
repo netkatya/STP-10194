@@ -1,0 +1,77 @@
+.contact-section .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 28px;
+  padding-bottom: 24px;
+  max-width: 320px;
+  background-image: url('/img/zigzag-mob.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.container {
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.contact-address {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-image {
+}
+
+.contact-link {
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-section .container {
+    gap: 32px;
+    padding-left: 88px;
+    padding-bottom: 48px;
+    max-width: 1200px;
+    background-image: url('/img/zigzag-desc.png');
+  }
+
+  .contact-title {
+    font-size: 36px;
+    line-height: 1.33;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .contact-address {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.33;
+  }
+
+  .contact-wrapper {
+    align-items: center;
+    gap: 24px;
+  }
+
+  .contact-image {
+    width: 80px;
+    height: 80px;
+  }
+}

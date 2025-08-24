@@ -1,119 +1,113 @@
 .howtoplay {
-    padding-top: 8px;
-    padding-bottom: 24px;
-    background-image: url('/img/zigzag-mob.png');
-        background-repeat: no-repeat;
-        background-position-x: center;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  background-image: url('/img/zigzag-mob.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .howtoplay-container {
-    padding-left: 6px;
-    padding-right: 6px;
-    
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .how-title {
-    margin-bottom: 16px;
-    font-size: 16px;
-    text-align: center;
-  
-   
+  margin-bottom: 16px;
+  font-size: 16px;
+  text-align: center;
 }
 
-
 .how-list-item {
-    margin-bottom: 16px;
-    gap: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-bottom: 16px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .how-list-item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .how-text {
-    font-size: 16px;
-    width: 128px;
+  font-size: 16px;
+  width: 128px;
 }
 
 .how-text-span {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 143%;
-    width: 130px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  width: 130px;
 }
 
 .how-picture {
-    width: 120px;
+  width: 120px;
 }
 
 .how-line {
-    width: 48px;
-    height: 2px;
-    background-color: white;
+  width: 48px;
+  height: 2px;
+  background-color: white;
 }
 
 @media only screen and (min-width: 1200px) {
-    .howtoplay {
-        padding-top: 16px;
-        padding-bottom: 48px;
-        background-image: url('/img/zigzag-desc.png');
-        background-repeat: no-repeat;
-    }
+  .howtoplay {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    background-image: url('/img/zigzag-desc.png');
+    background-repeat: no-repeat;
+  }
 
-    .how-title {
-        margin-bottom: 69px;
-        font-size: 36px;
-        line-height: 133%;
-    }
+  .how-title {
+    margin-bottom: 69px;
+    font-size: 36px;
+    line-height: 133%;
+  }
 
-    .howtoplay-container {
-        padding-left: 80px;
-        padding-right: 80px;
-        
-    }
+  .howtoplay-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 
-    .how-list-item {
-        margin-bottom: 32px;
-        gap: 24px;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-    .how-list-item:nth-child(odd) {
-        padding-right: 108px;
-    }
+  .how-list-item {
+    margin-bottom: 32px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .how-list-item:nth-child(odd) {
+    padding-right: 108px;
+  }
 
-    .how-list-item:nth-child(even) {
-        padding-left: 108px;
-    }
+  .how-list-item:nth-child(even) {
+    padding-left: 108px;
+  }
 
+  .how-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    width: 388px;
+  }
 
-    .how-text {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 125%;
-        width: 388px;
-    }
-        
-    .how-text-span {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 125%;
-    }
+  .how-text-span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+  }
 
-    .how-picture {
-        width: 336px;
-    }
+  .how-picture {
+    width: 336px;
+  }
 
-    .how-line {
-        width: 160px;
-    }
+  .how-line {
+    width: 160px;
+  }
 
-    .how-br {
-        display: none;
-    }
+  .how-br {
+    display: none;
+  }
 }
