@@ -10,8 +10,6 @@
   background-position-x: center;
 }
 
-.container {
-}
 
 .contact-title {
   text-align: center;
@@ -37,10 +35,15 @@
   gap: 4px;
 }
 
-.contact-image {
-}
+
 
 .contact-link {
+  transition: color 250ms ease-in-out;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #22cfe9;
 }
 
 @media only screen and (min-width: 1200px) {
