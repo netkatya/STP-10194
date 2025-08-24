@@ -60,10 +60,10 @@
 
 .first {
     list-style: disc;
-        margin-left: 6px;
-            margin-bottom: 8px;
-            font-size: 16px;
-            line-height: 100%;
+    margin-left: 6px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 100%;
 }
 
 .policy-ol-list {
@@ -88,6 +88,7 @@
 
 .policy-ul-list-item-link {
     text-decoration: underline;
+    margin-bottom: 4px;
 }
 
 @media only screen and (min-width: 1200px) {
