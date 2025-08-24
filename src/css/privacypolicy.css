@@ -89,6 +89,12 @@
 .policy-ul-list-item-link {
     text-decoration: underline;
     margin-bottom: 4px;
+    transition: color 250ms ease-in-out;
+}
+
+.policy-ul-list-item-link:hover,
+.policy-ul-list-item-link:focus {
+    color: #22cfe9;
 }
 
 .policy-text-cookies {
@@ -99,6 +105,15 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
+}
+
+.policy-mail {
+    transition: color 250ms ease-in-out;
+}
+
+.policy-mail:hover,
+.policy-mail:focus {
+    color: #22cfe9;
 }
 
 @media only screen and (min-width: 1200px) {
