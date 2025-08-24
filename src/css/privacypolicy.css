@@ -91,6 +91,16 @@
     margin-bottom: 4px;
 }
 
+.policy-text-cookies {
+    margin-left: 0;
+}
+
+.policy-ul-list-item-terms {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+}
+
 @media only screen and (min-width: 1200px) {
     .policy {
         padding-top: 60px;
@@ -168,6 +178,12 @@
 
     .policy-ul-list-item-link {
         text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .policy-ul-list-item-terms {
         font-weight: 500;
         font-size: 20px;
         line-height: 150%;
