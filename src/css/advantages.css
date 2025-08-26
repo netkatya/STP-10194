@@ -19,7 +19,7 @@
   line-height: 1;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .advantages-list {
@@ -61,6 +61,7 @@
     line-height: 1.33;
     padding-top: 16px;
     padding-bottom: 16px;
+    margin-bottom: 48px;
   }
 
   .advantages-list {

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   padding-bottom: 24px;
   max-width: 320px;
   background-image: url('/img/zigzag-mob.png');
@@ -17,6 +17,7 @@
   line-height: 1;
   padding-top: 8px;
   padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .upper-text {
@@ -38,7 +39,7 @@
 
 @media only screen and (min-width: 1200px) {
   .desc-section .container {
-    gap: 48px;
+    gap: 40px;
     padding-bottom: 48px;
     padding-left: 92px;
     padding-right: 92px;
