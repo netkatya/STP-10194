@@ -33,7 +33,7 @@
 .policy-date {
     font-size: 16px;
     line-height: 187%;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .policy-main-text {
@@ -86,6 +86,10 @@
     margin-bottom: 0;
 }
 
+.policy-ul-list-item:first-child {
+    margin-top: 16px;
+}
+
 .policy-ul-list-item-link {
     text-decoration: underline;
     margin-bottom: 4px;
@@ -132,7 +136,7 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 32px;
     }
 
     .arrow-left {
@@ -162,8 +166,6 @@
         padding-left: 36px;
     }
 
-    
-
     .policy-ol-list-item {
         font-size: 28px;
         line-height: 71%;
@@ -183,6 +185,11 @@
         line-height: 150%;
         margin-left: 0px;
         margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .policy-ul-list-item:first-child {
+        margin-top: 24px;
     }
 
     .policy-span {
