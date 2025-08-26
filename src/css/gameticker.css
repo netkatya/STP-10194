@@ -1,4 +1,4 @@
-.ticker {
+.js-ticker {
     padding-top: 12px;
     padding-bottom: 24px;
 }
@@ -28,20 +28,20 @@
     min-height: 180px;
 }
 
-.ticker .swiper-pagination {
+.js-ticker .swiper-pagination {
     position: relative;
     bottom: 0;
     margin-top: 16px;
     text-align: center;
 }
 
-  .ticker .swiper-button-prev,
-  .ticker .swiper-button-next {
+  .js-ticker .swiper-button-prev,
+  .js-ticker .swiper-button-next {
       display: none;
   }
 
 @media only screen and (min-width: 1200px) {
-    .ticker {
+    .js-ticker {
         padding-top: 24px;
         padding-bottom: 64px;
     }
@@ -86,8 +86,8 @@
         gap: 24px;
     }
     
-    .ticker .swiper-button-prev,
-    .ticker .swiper-button-next {
+    .js-ticker .swiper-button-prev,
+    .js-ticker .swiper-button-next {
         position: static;
         width: 40px;
         height: 40px;
@@ -97,8 +97,15 @@
         transition: color 250ms ease-in-out;   
     }
     
-    .ticker .swiper-button-prev:hover,
-    .ticker .swiper-button-next:hover {
+    .js-ticker .swiper-button-prev:hover,
+    .js-ticker .swiper-button-next:hover {
         color: #fff;
+    }
+
+    .swiper-button-prev.disabled,
+    .swiper-button-next.disabled {
+        opacity: 0.3;
+        pointer-events: none;
+        cursor: default;
     }
 }

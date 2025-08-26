@@ -4,27 +4,29 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const swiperFeedback = new Swiper('.ticker .swiper', {
+const swiperFeedback = new Swiper('.js-ticker .swiper', {
   modules: [Navigation, Pagination, Keyboard, Autoplay],
   slidesPerView: 3,
   spaceBetween: 16,
   navigation: {
-    nextEl: '.ticker .swiper-button-next',
-    prevEl: '.ticker .swiper-button-prev',
+    nextEl: '.js-ticker .swiper-button-next',
+    prevEl: '.js-ticker .swiper-button-prev',
     disabledClass: 'disabled',
   },
   pagination: {
-    el: '.ticker .swiper-pagination',
+    el: '.js-ticker .swiper-pagination',
     clickable: true,
   },
   keyboard: {
     enabled: true,
     onlyInViewport: true,
     },
-    autoplay: {
+  autoplay: {
     delay: 2000,
     disableOnInteraction: false,
   },
+  watchSlidesProgress: true,
+  watchOverflow: true,
   breakpoints: {
     1200: {
       slidesPerView: 4,
