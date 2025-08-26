@@ -10,8 +10,6 @@
     z-index: 9999;
 }
 
-
-
 .js-cookies-modal.js-show {
     bottom: 0;
 }
@@ -65,7 +63,6 @@
     .js-cookies-modal {
         padding-top: 60px;
         padding-bottom: 80px;
-        
     }
 
     .cookies-modal-container {
@@ -99,6 +96,4 @@
             width: 256px;
             height: 68px;    
         }
-    
-
 }
