@@ -1,6 +1,10 @@
-.policy {
-    padding-top: 10px;
-    padding-bottom: 40px;
+
+.policy-header-back {
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #000;
 }
 
 .back-button {
@@ -14,14 +18,33 @@
     gap: 6px;
     align-items: center;
     color: #fff;
-    margin-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: color 250ms ease-in-out;
 }
 
-.arrow-left  {
+.back-button:hover,
+.back-button:focus {
+    color: #22cfe9;
+}
+
+.arrow-left {
     stroke: #fff;
     fill: #fff;
     width: 4px;
     height: 8px;
+}
+
+.policy {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+
+.arrow-left .back-button:hover,
+.arrow-left .back-button:focus {
+    color: #22cfe9;
 }
 
 .policy-header {
@@ -121,8 +144,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
+
+
     .policy {
-        padding-top: 60px;
+        padding-top: 40px;
         padding-bottom: 60px;
     }
 
@@ -136,7 +161,8 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 100%;
-        margin-bottom: 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .arrow-left {
