@@ -64,7 +64,9 @@
   }
 
   .advantages-list {
-    margin-top: 70px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-bottom: 0;
   }
 
   .advantages-item {
