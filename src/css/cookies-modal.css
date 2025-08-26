@@ -4,7 +4,7 @@
     padding-bottom: 40px;
     position: fixed;
     bottom: -100%;
-    left: 0;
+    left: 8px;
     width: 100%;
     transition: bottom 0.5s ease;
     z-index: 9999;
@@ -65,7 +65,7 @@
     .js-cookies-modal {
         padding-top: 60px;
         padding-bottom: 80px;
-        position: fixed;
+        
     }
 
     .cookies-modal-container {
