@@ -33,6 +33,15 @@
   display: none;
 }
 
+.js-gallery .swiper-slide {
+  opacity: 0.2;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.js-gallery .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
 
 
 @media only screen and (min-width: 1200px) {
