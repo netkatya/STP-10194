@@ -1,9 +1,7 @@
-.gallery-section .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.js-gallery {
   padding-bottom: 24px;
+}
+.gallery-container {
   background-image: url('/img/zigzag-mob.png');
   background-repeat: no-repeat;
   background-position-x: center;
@@ -15,19 +13,71 @@
   line-height: 1;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 
+.gallery-image {
+  width: 100px;
+  height: 160px;
+}
+
+.js-gallery .swiper-pagination {
+  position: relative;
+  bottom: 0;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.js-gallery .swiper-button-prev,
+.js-gallery .swiper-button-next {
+  display: none;
+}
+
+
+
 @media only screen and (min-width: 1200px) {
-  .gallery-section .container {
+  .gallery-container {
     padding-bottom: 48px;
     background-image: url('/img/zigzag-desc.png');
+  }
+
+  .gallery-container {
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
   .gallery-title {
     font-size: 36px;
     line-height: 1.33;
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
+  }
+
+  .gallery-image {
+    width: 264px;
+    height: 408px;
+  }
+
+  .js-gallery .swiper-button-prev,
+  .js-gallery .swiper-button-next {
+    position: static;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 250ms ease-in-out;
+  }
+            
+  .js-gallery .swiper-button-prev:hover,
+  .js-gallery .swiper-button-next:hover {
+    color: #fff;
+  }
+  .gallery-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    gap: 24px;
   }
 }
