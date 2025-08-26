@@ -18,6 +18,28 @@
     margin-bottom: 24px;
 }
 
+.ticker-pics-wrapper {
+    padding: 16px;
+    border: 1px solid #fff;
+}
+
+.ticker-picture {
+    width: 100px;
+    min-height: 180px;
+}
+
+.ticker .swiper-pagination {
+    position: relative;
+    bottom: 0;
+    margin-top: 16px;
+    text-align: center;
+}
+
+  .ticker .swiper-button-prev,
+  .ticker .swiper-button-next {
+      display: none;
+  }
+
 @media only screen and (min-width: 1200px) {
     .ticker {
         padding-top: 24px;
@@ -35,9 +57,51 @@
         max-width: 100%;
     }
 
-        .ticker-text {
-            max-width: 100%;
-            font-size: 24px;
-            line-height: 167%;
+    .ticker-text {
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 167%;
+        margin-bottom: 16px;
+    }
+
+    .ticker-pics-wrapper {
+        padding: 36px;
+        border: 1px solid #fff;
+    }
+
+    .ticker-picture {
+        width: 220px;
+        min-height: 409px;
+    }
+
+    .ticker .swiper-pagination {
+        margin-top: 0px;
+    }
+
+        .ticker-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 48px;
+            gap: 24px;
+        }
+    
+        .ticker .swiper-button-prev,
+        .ticker .swiper-button-next {
+            position: static;
+            width: 40px;
+            height: 40px;
+         
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+       
+           
+        }
+    
+        .ticker .swiper-button-prev:hover,
+        .ticker .swiper-button-next:hover {
+            color: #fff;
         }
 }
