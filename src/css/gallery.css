@@ -17,8 +17,8 @@
 }
 
 .gallery-image {
-  width: 100px;
-  height: 160px;
+  min-width: 120px;
+  height: 192px;
 }
 
 .js-gallery .swiper-pagination {
