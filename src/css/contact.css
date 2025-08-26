@@ -10,7 +10,6 @@
   background-position-x: center;
 }
 
-
 .contact-title {
   text-align: center;
   font-size: 16px;
@@ -35,8 +34,6 @@
   gap: 4px;
 }
 
-
-
 .contact-link {
   transition: color 250ms ease-in-out;
 }
@@ -49,13 +46,13 @@
 @media only screen and (min-width: 1200px) {
   .contact-section .container {
     gap: 32px;
-    padding-left: 88px;
-    padding-bottom: 48px;
+    padding: 0 88px 88px 88px;
     max-width: 1200px;
     background-image: url('/img/zigzag-desc.png');
   }
 
   .contact-title {
+    text-align: center;
     font-size: 36px;
     line-height: 1.33;
     padding-top: 16px;

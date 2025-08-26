@@ -1,0 +1,33 @@
+.gallery-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 24px;
+  background-image: url('/img/zigzag-mob.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery-section .container {
+    padding-bottom: 48px;
+    background-image: url('/img/zigzag-desc.png');
+  }
+
+  .gallery-title {
+    font-size: 36px;
+    line-height: 1.33;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
