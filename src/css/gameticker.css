@@ -78,30 +78,27 @@
         margin-top: 0px;
     }
 
-        .ticker-controls {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 48px;
-            gap: 24px;
-        }
+    .ticker-controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 48px;
+        gap: 24px;
+    }
     
-        .ticker .swiper-button-prev,
-        .ticker .swiper-button-next {
-            position: static;
-            width: 40px;
-            height: 40px;
-         
-        
-            display: flex;
-            align-items: center;
-            justify-content: center;
-       
-           
-        }
+    .ticker .swiper-button-prev,
+    .ticker .swiper-button-next {
+        position: static;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 250ms ease-in-out;   
+    }
     
-        .ticker .swiper-button-prev:hover,
-        .ticker .swiper-button-next:hover {
-            color: #fff;
-        }
+    .ticker .swiper-button-prev:hover,
+    .ticker .swiper-button-next:hover {
+        color: #fff;
+    }
 }
