@@ -3,3 +3,4 @@ import './js/gallery';
 import './js/gameticker';
 import './js/topup';
 import './js/cookies-modal';
+import './js/howtoplay';
