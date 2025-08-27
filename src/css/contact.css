@@ -46,7 +46,7 @@
 @media only screen and (min-width: 1200px) {
   .contact-section .container {
     gap: 32px;
-    padding: 0 88px 88px 88px;
+    padding: 0 86px 48px 86px;
     max-width: 1200px;
     background-image: url('/img/zigzag-desc.png');
   }
