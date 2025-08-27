@@ -21,6 +21,7 @@
 .ticker-pics-wrapper {
     padding: 16px;
     border: 1px solid #fff;
+    border-radius: 8px;
 }
 
 .ticker-picture {
