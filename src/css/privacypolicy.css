@@ -28,11 +28,19 @@
     color: #22cfe9;
 }
 
+
 .arrow-left {
     stroke: #fff;
     fill: #fff;
     width: 4px;
     height: 8px;
+    transition: fill 250ms ease-in-out, stroke 250ms ease-in-out;
+}
+
+.back-button:hover .arrow-left,
+.back-button:focus .arrow-left {
+    fill: #22cfe9;
+    stroke: #22cfe9;
 }
 
 .policy {
